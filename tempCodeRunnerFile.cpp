@@ -1,0 +1,1 @@
+    int contadorCaracter = 0;
