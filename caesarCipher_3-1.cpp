@@ -7,7 +7,7 @@ int main(){
     char cifrado[]= "Vpop md";
     int longitud = strlen(cifrado);
 
-    cout << "Frase cifrada con Cesar doble (+3/+1)"<< cifrado<<endl;
+    cout << "Frase cifrada con Cesar doble (+3/+1): "<< cifrado<<endl;
     
     for(int i=0; i<longitud; i++){
         if (cifrado[i] == ' '){
@@ -23,7 +23,7 @@ int main(){
             } 
         }
     }
-    cout<< "Frase descifrada: "<< endl;
+    cout<< "Frase descifrada: ";
     cout<< cifrado<< endl;
 
 return 0;
