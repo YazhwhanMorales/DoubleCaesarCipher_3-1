@@ -23,8 +23,7 @@ int main(){
             } 
         }
     }
-    cout<< "Frase descifrada: ";
-    cout<< cifrado<< endl;
+    cout<< "Frase descifrada: "<< cifrado<< endl;
 
 return 0;
 }
