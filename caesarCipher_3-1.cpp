@@ -1,4 +1,4 @@
-//Equipo: Mauricio Figueroa, Yazhwhan Morales, Grace Valencia
+// Team: Mauricio Figueroa, Yazhwhan Morales, Grace Valencia
 
 #include <iostream>
 #include <string.h>
@@ -16,16 +16,16 @@ int main(){
             continue;
         }
         else{
-            //el 0 cuenta como par, por lo que a las posiciones pares les restaremos 3 para modificar su ASCII 
-            // a las posiciones impares les restamos 1 para asi cumplir correctamente con la alternancia del cifrado.
+            // 0 counts as even, so we subtract 3 from even positions to modify their ASCII values.
+            // We subtract 1 from odd positions 
             if (i % 2 == 0) {
-            cifrado[i] -= 3;
+                cifrado[i] -= 3;
             } else {
-            cifrado[i] -= 1;
+                cifrado[i] -= 1;
             } 
         }
     }
     cout<< "Frase descifrada: "<< cifrado<< endl;
 
-return 0;
+    return 0;
 }
